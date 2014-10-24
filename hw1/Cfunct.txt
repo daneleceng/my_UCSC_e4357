@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{			
+    double deg = 90;
+    double rad;
+    double DegToRad(double deg);
+    printf("Degress = %f, Radians = %f\n", deg, DegToRad(deg));
+return 0;
+}
+
+double DegToRad( double deg)
+{
+	return deg*3.1416/180;
+}
